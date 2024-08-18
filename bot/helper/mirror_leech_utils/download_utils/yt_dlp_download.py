@@ -82,7 +82,8 @@ class YoutubeDLHelper:
                 "file_access": lambda n: 3,
                 "extractor": lambda n: 3,
             },
-        }
+            "concurrent_fragment_downloads": 8,  # Set concurrency level to 8
+                    }
 
     @property
     def download_speed(self):
