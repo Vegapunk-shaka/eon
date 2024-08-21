@@ -10,7 +10,6 @@ bencoding
 cinemagoer
 cloudscraper
 dnspython
-electrogram
 feedparser
 flask
 gevent
@@ -25,6 +24,7 @@ motor
 mutagen
 markdown
 natsort
+pyrofork
 pillow
 psutil
 pybase64
